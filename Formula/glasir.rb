@@ -1,28 +1,28 @@
 class Glasir < Formula
   desc "Deterministic code intelligence graph for repositories, served over MCP"
   homepage "https://github.com/Attackwave/glasir"
-  version "0.2.1"
+  version "0.3.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/Attackwave/glasir/releases/download/v0.2.1/glasir-0.2.1-macos-arm64.tar.gz"
-      sha256 "7f394999142327469f6d130c40f10b1047f7b0eaba7f138db37c5b60fb03381a"
+      url "https://github.com/Attackwave/glasir/releases/download/v0.3.0/glasir-0.3.0-macos-arm64.tar.gz"
+      sha256 "de178866cee539ddf6bf85fd671ac10afbf26c7e7c1ad10c4412a5d4f9e8286d"
     end
     on_intel do
-      url "https://github.com/Attackwave/glasir/releases/download/v0.2.1/glasir-0.2.1-macos-x86_64.tar.gz"
-      sha256 "16f092e80fb9a2e49fdf8e2c302b5aec824f6bab00d0e87c10847c0942d4972a"
+      url "https://github.com/Attackwave/glasir/releases/download/v0.3.0/glasir-0.3.0-macos-x86_64.tar.gz"
+      sha256 "751648e799397f6eeba9bec17fc97854e1225428bae9e5b451f0180c54e8b278"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Attackwave/glasir/releases/download/v0.2.1/glasir-0.2.1-linux-arm64.tar.gz"
-      sha256 "994e86e0a619dcd7e2d13b71b1ee1c1bd90348d8db540d3a13593507b5d75b04"
+      url "https://github.com/Attackwave/glasir/releases/download/v0.3.0/glasir-0.3.0-linux-arm64.tar.gz"
+      sha256 "1832b822b8055b48420b0fb1750977371725804310c6af4fa74a53a54539aadd"
     end
     on_intel do
-      url "https://github.com/Attackwave/glasir/releases/download/v0.2.1/glasir-0.2.1-linux-x86_64.tar.gz"
-      sha256 "3f52d916536286384ab45bd81673ca17b9b9d2290a77f9cce8158b08ce022f28"
+      url "https://github.com/Attackwave/glasir/releases/download/v0.3.0/glasir-0.3.0-linux-x86_64.tar.gz"
+      sha256 "0830fae77f7680e0a02fa27e36b10c3280ecfbd1b371d94f619966d0ae14a1d1"
     end
   end
 
